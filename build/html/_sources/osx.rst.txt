@@ -1,0 +1,20 @@
+osx
+====
+
+ln
+----
+
+.. code-block:: zsh
+
+    ln -sfn /path/to/source /path/to/link
+
+::
+
+    /path/to/source：源文件或目录
+    /path/to/link：要创建的链接名
+
+    -s symbolic 创建软链接（符号链接），而不是硬链接。
+    -f force 如果目标文件已存在，则强制删除后再创建新链接（覆盖）。
+    -n no dereference，如果目标已是符号链接，仅删除链接本身，不跟随其指向的内容
+
+

@@ -1,0 +1,10 @@
+brew
+====
+
+.. code-block:: zsh
+    
+    brew install --cask google-chrome
+    # --cask 代表安装图形界面应用（比如谷歌浏览器）
+
+    # brew cask install google-chrome 
+    # 旧用法（已废弃）
