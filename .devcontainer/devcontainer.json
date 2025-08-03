@@ -1,7 +1,4 @@
 {
-  "name": "My Codespace",
-  "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "postStartCommand": "pip install sphinx"
-  //"postCreateCommand": "./my-init-script.sh",
-  //"postStartCommand": "./my-start-script.sh"
+  "name": "reStructuredText",
+  "build": { "dockerfile": "Dockerfile" }
 }
