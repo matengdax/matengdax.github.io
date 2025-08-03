@@ -1,9 +1,10 @@
-FROM python:3.12
+FROM fedora
 
 WORKDIR /workspace
 
 COPY . .
 
-RUN pip install -r .devcontainer/requirements.txt
+RUN dnf install -y python3 python3-pip
+RUN pip3 install -r .devcontainer/requirements.txt
 
 CMD ["/bin/bash"]

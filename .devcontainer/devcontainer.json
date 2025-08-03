@@ -3,5 +3,20 @@
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "ms-python.python",
+    "lextudio.restructuredtext",
+    "ms-python.vscode-pylance",
+    "ms-azuretools.vscode-container-tools",
+    "tht13.rst-vscode",
+    "redhat.ansible"
+  ],
+  "features": {
+    //"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    //"ghcr.io/devcontainers/features/git:1": {},
+    //"ghcr.io/devcontainers/features/github-cli:1": {}
+    // features在rhel系不支持
   }
 }
