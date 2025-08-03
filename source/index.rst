@@ -12,5 +12,6 @@
 
    rst
    osx
-   asr/index   bash
+   asr/index
+   bash
    ffmpeg
