@@ -1,4 +1,7 @@
 {
   "name": "reStructuredText",
-  "build": { "dockerfile": "Dockerfile" }
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  }
 }
